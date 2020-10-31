@@ -1,10 +1,10 @@
-n = 100
-x = 2
-y = 4
+n = int(input("Escriba un numero entero\n"))
+x = 0
+y = 1
 sum = 0
 serie = [0]
 
-while (sum < n):
+while sum < n:
     sum = x + y
     # print("{}, {} = {}".format(x,y,sum))
     serie.append(y)
@@ -12,3 +12,4 @@ while (sum < n):
     y = sum
 
 print(serie)
+
