@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------------------------------------
+#
+# Escriba un programa que acepte el radio de un círculo por el usuario y calcule y muestre por pantalla el área
+#
+# ------------------------------------------------------------------------------------------------------------
+
+
 import math
 
 radio = float(input("Escriba el radio\n"))

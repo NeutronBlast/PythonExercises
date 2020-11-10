@@ -1,3 +1,8 @@
+# ------------------------------------------------------------------------------------------------------------
+# Escriba un programa que reciba un número entero (positivo o negativo) y por la salida lo
+# muestre de forma inversa. Ejemplo, entrada: -123, salida: -321
+# ------------------------------------------------------------------------------------------------------------
+
 n = int(input("Esciba un numero\n"))
 aux_n = n
 new_n = 0

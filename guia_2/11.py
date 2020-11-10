@@ -1,8 +1,4 @@
 # ------------------------------------------------------------------------------------------------------------
-# Escriba un programa que acepte un número entero n y calcule el valor de n + nn + nnn, Por
-# ejemplo, sea n = 5, la salida debe ser 615
+# Escriba una función lambda que encuentre el valor de e^x dada por la expresión ((1 + (1/n)^n)^x para un valor
+# de n = 1000
 # ------------------------------------------------------------------------------------------------------------
-
-n = 5
-sum = n + n*10+n + n*100+n*10+n
-print(sum)

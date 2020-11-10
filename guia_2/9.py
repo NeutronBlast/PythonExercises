@@ -1,8 +1,4 @@
 # ------------------------------------------------------------------------------------------------------------
-# Escriba un programa que acepte un número entero n y calcule el valor de n + nn + nnn, Por
-# ejemplo, sea n = 5, la salida debe ser 615
+# Escriba una función que reciba como entrada una lista y la salida sea la lista con los
+# elementos intercambiados, ejemplo: entrada: [1, 2, 3, 4, 5], salida: [2, 1, 4, 3, 5]
 # ------------------------------------------------------------------------------------------------------------
-
-n = 5
-sum = n + n*10+n + n*100+n*10+n
-print(sum)
