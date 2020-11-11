@@ -14,8 +14,3 @@ def my_zip(it1, it2):
         for i in range(len(it1)):
             new_it.append((it1[i], it2[i]))
     return new_it
-
-
-paises = ["China", "India", "Estados Unidos", "Indonesia"]
-poblaciones = [1391, 1364, 327, 264]
-print(my_zip(paises, poblaciones))

@@ -14,5 +14,4 @@ def sumNumbers(entrada):
     return salida
 
 
-st = input("Ingrese un string con caracteres numericos\n")
-print(sumNumbers(st))
+

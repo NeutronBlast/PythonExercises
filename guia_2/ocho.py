@@ -12,6 +12,3 @@ def primeOrComposite(n):
             break
     return prime
 
-
-numero = int(input("Ingrese un numero\n"))
-print(primeOrComposite(numero))

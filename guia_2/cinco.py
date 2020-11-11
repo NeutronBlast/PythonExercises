@@ -4,5 +4,6 @@
 # la salida debe ser: Antonio 21
 # ------------------------------------------------------------------------------------------------------------
 
-lst = [("Antonio", 21), ("Roberto", 18), ("Teresa", 19)]
-print(sorted(lst, key=lambda x: x[1], reverse=True)[0])
+def max_age():
+    lst = [("Antonio", 21), ("Roberto", 18), ("Teresa", 19)]
+    return sorted(lst, key=lambda x: x[1], reverse=True)[0]

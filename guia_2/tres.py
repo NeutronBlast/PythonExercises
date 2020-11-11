@@ -6,7 +6,3 @@
 
 def delete_duplicates(lst):
     return list(set(lst))
-
-
-my_list = [3, 4, 3, 6, 7, 2, 5, 42, 3, 56, 2]
-print(delete_duplicates(my_list))

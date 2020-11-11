@@ -6,9 +6,10 @@
 
 # ------------------------------------------------------------------------------------------------------------
 
-n = int(input("Escriba un número\n"))
-merged = ""
-for i in range(n, 0, -1):
-    merged += str(i)
+def secuencia():
+    n = int(input("Escriba un número\n"))
+    merged = ""
+    for i in range(n, 0, -1):
+        merged += str(i)
 
-print("La secuencia es:", merged)
+    print("La secuencia es:", merged)

@@ -4,6 +4,4 @@
 # [“ALFREDO”, “LUIS”, “MARGARITA”, “ROSA”]
 # ------------------------------------------------------------------------------------------------------------
 
-entrada = ["alfredo", "luis", "margarita", "rosa"]
-salida = list(map(lambda item: item.upper(), entrada))
-print(salida)
+salida = lambda entrada: list(map(lambda item: item.upper(), entrada))

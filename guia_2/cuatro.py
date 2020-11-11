@@ -8,12 +8,12 @@
 # n = 2, la salida será: Ricardo 19 Caracas
 # ------------------------------------------------------------------------------------------------------------
 
-nombres = ("Juan", "Maria", "Ricardo", "Ana", "Cecilia")
-edades = (23, 21, 19, 25, 22)
-ciudades = ("Maracay", "Valencia", "Caracas", "Barquisimeto", "Barcelona")
+def print_tuple(n):
+    nombres = ("Juan", "Maria", "Ricardo", "Ana", "Cecilia")
+    edades = (23, 21, 19, 25, 22)
+    ciudades = ("Maracay", "Valencia", "Caracas", "Barquisimeto", "Barcelona")
 
-n = int(input("Ingrese un número\n"))
-try:
-    print(nombres[n], edades[n], ciudades[n])
-except IndexError:
-    print("Elemento no se encuentra en ese indice")
+    try:
+        return nombres[n], edades[n], ciudades[n]
+    except IndexError:
+        return "Elemento no se encuentra en ese indice"
