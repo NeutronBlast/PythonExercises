@@ -1,4 +1,4 @@
-from guia_2 import uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, doce, trece, catorce, quince
+from guia_2 import uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince
 
 print("""
 """)
@@ -59,7 +59,6 @@ print("************************************\n")
 numero = int(input("Ingrese un numero\n"))
 print("El numero {} es {}".format(numero, ocho.primeOrComposite(numero)))
 
-
 print("\n************************************")
 print("\t\t\tEJERCICIO 9")
 print("************************************\n")
@@ -78,13 +77,16 @@ print("\n************************************")
 print("\t\t\tEJERCICIO 11")
 print("************************************\n")
 
+x = int(input("Ingrese un valor de x\n"))
+print("e^{} = {}".format(x, once.e_func(x)))
+
 print("\n************************************")
 print("\t\t\tEJERCICIO 12")
 print("************************************\n")
 
 lst = [2, 3, 5, 5, 7, 8, 3, 4]
-print("Primer valor de lista {} es {}:".format(lst,doce.primero(lst)))
-print("Ultimo valor de lista {} es {}".format(lst,doce.ultimo(lst)))
+print("Primer valor de lista {} es {}:".format(lst, doce.primero(lst)))
+print("Ultimo valor de lista {} es {}".format(lst, doce.ultimo(lst)))
 
 print("\n************************************")
 print("\t\t\tEJERCICIO 13")
